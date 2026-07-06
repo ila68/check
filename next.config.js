@@ -5,6 +5,7 @@ const nextConfig = {
     domains: ['localhost'],
   },
   async headers() {
+  
     return [
       {
         source: '/(.*)',
